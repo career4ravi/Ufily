@@ -1,0 +1,139 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".UfilyEditFragment" android:baselineAligned="false">
+
+
+    <FrameLayout
+        android:id="@+id/WatsAppButtonView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:background="#40000000"
+        android:visibility="visible">
+
+        <ImageButton
+            android:layout_width="@dimen/abc_action_button_min_width_material"
+            android:layout_height="@dimen/abc_action_button_min_height_material"
+            android:id="@+id/WatsAppImageAddButton"
+            android:background="@drawable/sticker_3rdparty_add"
+            android:layout_gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" android:contentDescription="TODO"/>
+
+    </FrameLayout>
+
+    <!--LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="100"
+        -->
+
+    <!--LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        -->
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fragment_ufily_recent"
+        android:layout_centerInParent="true"
+        />-->
+    <!--<ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/recentUfilyImageView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/ic_launcher" />-->
+    <GridView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/gridview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:columnWidth="90dp"
+        android:numColumns="auto_fit"
+        android:verticalSpacing="10dp"
+        android:horizontalSpacing="10dp"
+        android:stretchMode="columnWidth"
+        android:gravity="center"
+        />
+
+    <FrameLayout
+        android:id="@+id/framelLayoutSemiTransparentRecent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#40000000"
+        android:visibility="invisible">
+
+        <com.felipecsl.gifimageview.library.GifImageView
+            android:id="@+id/GifImageViewRecentFragment"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:visibility="invisible" />
+
+        <!--<ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/GifimageView"
+            android:background="@drawable/image_border"
+            android:src="@drawable/sim" />-->
+
+
+    </FrameLayout>
+
+    <!--/LinearLayout-->
+
+    <!--LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="80"
+        >
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="48dp"
+                android:layout_height="wrap_content"
+                android:textSize="13dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:textColor="#FF000000"
+                android:text="Add to WhatsApp" />
+
+            <ImageButton
+                android:layout_width="@dimen/abc_action_button_min_width_material"
+                android:layout_height="@dimen/abc_action_button_min_height_material"
+                android:id="@+id/WatsAppImageAddButton"
+                android:background="@drawable/sticker_3rdparty_add"
+                android:layout_gravity="center"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp" android:contentDescription="TODO"/>
+
+
+
+    </LinearLayout-->
+
+    <!--/LinearLayout-->
+
+
+
+</RelativeLayout>

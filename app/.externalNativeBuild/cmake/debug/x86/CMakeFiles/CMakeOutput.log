@@ -1,0 +1,394 @@
+The target system is: Android - 1 - i686
+The host system is: Windows - 6.1.7601 - AMD64
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/rtiragat/AndroidStudioProjects/Ufily/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\rtiragat\AppData\Local\Android\sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_2886e"
+[1/2] Building C object CMakeFiles/cmTC_2886e.dir/testCCompiler.c.o
+[2/2] Linking C executable cmTC_2886e
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/rtiragat/AndroidStudioProjects/Ufily/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\rtiragat\AppData\Local\Android\sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_5d3a6"
+[1/2] Building C object CMakeFiles/cmTC_5d3a6.dir/CMakeCCompilerABI.c.o
+[2/2] Linking C executable cmTC_5d3a6
+Android (4751641 based on r328903) clang version 7.0.2 (https://android.googlesource.com/toolchain/clang 003100370607242ddd5815e4a043907ea9004281) (https://android.googlesource.com/toolchain/llvm 1d739ffb0366421d383e04ff80ec2ee591315116) (based on LLVM 7.0.2svn)
+Target: i686-none-linux-android19
+Thread model: posix
+InstalledDir: C:\Users\rtiragat\AppData\Local\Android\sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin
+Found candidate GCC installation: C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64/lib/gcc/i686-linux-android\4.9.x
+Selected GCC installation: C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x
+Candidate multilib: .;@m32
+Selected multilib: .;@m32
+ "C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin\\ld" --sysroot=C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/platforms/android-19/arch-x86 -pie --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_5d3a6 "C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/platforms/android-19/arch-x86/usr/lib\\crtbegin_dynamic.o" -LC:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/x86 "-LC:\\Users\\rtiragat\\AppData\\Local\\Android\\sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\7.0.2\\lib\\linux\\i386" -LC:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x -LC:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -LC:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/platforms/android-19/arch-x86/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_5d3a6.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl "C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/platforms/android-19/arch-x86/usr/lib\\crtend_android.o"
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(i686-linux-android-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/rtiragat/AndroidStudioProjects/Ufily/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"C:\Users\rtiragat\AppData\Local\Android\sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_5d3a6"]
+  ignore line: [[1/2] Building C object CMakeFiles/cmTC_5d3a6.dir/CMakeCCompilerABI.c.o]
+  ignore line: [[2/2] Linking C executable cmTC_5d3a6]
+  ignore line: [Android (4751641 based on r328903) clang version 7.0.2 (https://android.googlesource.com/toolchain/clang 003100370607242ddd5815e4a043907ea9004281) (https://android.googlesource.com/toolchain/llvm 1d739ffb0366421d383e04ff80ec2ee591315116) (based on LLVM 7.0.2svn)]
+  ignore line: [Target: i686-none-linux-android19]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: C:\Users\rtiragat\AppData\Local\Android\sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin]
+  ignore line: [Found candidate GCC installation: C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64/lib/gcc/i686-linux-android\4.9.x]
+  ignore line: [Selected GCC installation: C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m32]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m32]
+  link line: [ "C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin\\ld" --sysroot=C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/platforms/android-19/arch-x86 -pie --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_5d3a6 "C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/platforms/android-19/arch-x86/usr/lib\\crtbegin_dynamic.o" -LC:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/x86 "-LC:\\Users\\rtiragat\\AppData\\Local\\Android\\sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\7.0.2\\lib\\linux\\i386" -LC:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x -LC:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -LC:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/platforms/android-19/arch-x86/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_5d3a6.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl "C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/platforms/android-19/arch-x86/usr/lib\\crtend_android.o"]
+    arg [C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin\\ld] ==> ignore
+    arg [--sysroot=C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/platforms/android-19/arch-x86] ==> ignore
+    arg [-pie] ==> ignore
+    arg [--enable-new-dtags] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_i386] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_5d3a6] ==> ignore
+    arg [C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/platforms/android-19/arch-x86/usr/lib\\crtbegin_dynamic.o] ==> ignore
+    arg [-LC:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/x86] ==> dir [C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/x86]
+    arg [-LC:\\Users\\rtiragat\\AppData\\Local\\Android\\sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\7.0.2\\lib\\linux\\i386] ==> dir [C:\\Users\\rtiragat\\AppData\\Local\\Android\\sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\7.0.2\\lib\\linux\\i386]
+    arg [-LC:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x] ==> dir [C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x]
+    arg [-LC:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib] ==> dir [C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib]
+    arg [-LC:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/platforms/android-19/arch-x86/usr/lib] ==> dir [C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/platforms/android-19/arch-x86/usr/lib]
+    arg [--exclude-libs] ==> ignore
+    arg [libgcc.a] ==> ignore
+    arg [--exclude-libs] ==> ignore
+    arg [libatomic.a] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [-znocopyreloc] ==> ignore
+    arg [CMakeFiles/cmTC_5d3a6.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/platforms/android-19/arch-x86/usr/lib\\crtend_android.o] ==> ignore
+  collapse library dir [C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/x86] ==> [C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/x86]
+  collapse library dir [C:\\Users\\rtiragat\\AppData\\Local\\Android\\sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\7.0.2\\lib\\linux\\i386] ==> [C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/7.0.2/lib/linux/i386]
+  collapse library dir [C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x] ==> [C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x]
+  collapse library dir [C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib] ==> [C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64/i686-linux-android/lib]
+  collapse library dir [C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/platforms/android-19/arch-x86/usr/lib] ==> [C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/platforms/android-19/arch-x86/usr/lib]
+  implicit libs: [gcc;dl;c;gcc;dl]
+  implicit dirs: [C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/x86;C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/7.0.2/lib/linux/i386;C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x;C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64/i686-linux-android/lib;C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/platforms/android-19/arch-x86/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: C:/Users/rtiragat/AndroidStudioProjects/Ufily/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\rtiragat\AppData\Local\Android\sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_d70fa"
+[1/2] Building C object CMakeFiles/cmTC_d70fa.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_d70fa
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: C:/Users/rtiragat/AndroidStudioProjects/Ufily/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\rtiragat\AppData\Local\Android\sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_dc560"
+[1/2] Building C object CMakeFiles/cmTC_dc560.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_dc560
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: C:/Users/rtiragat/AndroidStudioProjects/Ufily/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\rtiragat\AppData\Local\Android\sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_4523f"
+[1/2] Building C object CMakeFiles/cmTC_4523f.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_4523f
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Performing C SOURCE FILE Test HAVE_BUILTIN_BSWAP16 succeeded with the following output:
+Change Dir: C:/Users/rtiragat/AndroidStudioProjects/Ufily/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\rtiragat\AppData\Local\Android\sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_c4038"
+[1/2] Building C object CMakeFiles/cmTC_c4038.dir/src.c.o
+[2/2] Linking C executable cmTC_c4038
+
+Source file was:
+
+    int main(void) {
+      (void)__builtin_bswap16(0);
+      return 0;
+    }
+  
+Performing C SOURCE FILE Test HAVE_BUILTIN_BSWAP32 succeeded with the following output:
+Change Dir: C:/Users/rtiragat/AndroidStudioProjects/Ufily/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\rtiragat\AppData\Local\Android\sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_82718"
+[1/2] Building C object CMakeFiles/cmTC_82718.dir/src.c.o
+[2/2] Linking C executable cmTC_82718
+
+Source file was:
+
+    int main(void) {
+      (void)__builtin_bswap32(0);
+      return 0;
+    }
+  
+Performing C SOURCE FILE Test HAVE_BUILTIN_BSWAP64 succeeded with the following output:
+Change Dir: C:/Users/rtiragat/AndroidStudioProjects/Ufily/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\rtiragat\AppData\Local\Android\sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_4d590"
+[1/2] Building C object CMakeFiles/cmTC_4d590.dir/src.c.o
+[2/2] Linking C executable cmTC_4d590
+
+Source file was:
+
+    int main(void) {
+      (void)__builtin_bswap64(0);
+      return 0;
+    }
+  
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: C:/Users/rtiragat/AndroidStudioProjects/Ufily/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\rtiragat\AppData\Local\Android\sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_a97f1"
+[1/2] Building C object CMakeFiles/cmTC_a97f1.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_a97f1
+
+
+Determining if the pthread_create exist passed with the following output:
+Change Dir: C:/Users/rtiragat/AndroidStudioProjects/Ufily/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\rtiragat\AppData\Local\Android\sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_7dcec"
+[1/2] Building C object CMakeFiles/cmTC_7dcec.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_7dcec
+
+File C:/Users/rtiragat/AndroidStudioProjects/Ufily/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test HAVE_PTHREAD_PRIO_INHERIT succeeded with the following output:
+Change Dir: C:/Users/rtiragat/AndroidStudioProjects/Ufily/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\rtiragat\AppData\Local\Android\sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_b417b"
+[1/2] Building C object CMakeFiles/cmTC_b417b.dir/src.c.o
+[2/2] Linking C executable cmTC_b417b
+
+Source file was:
+
+        #include <pthread.h>
+        int main (void) {
+          int attr = HAVE_PTHREAD_PRIO_INHERIT;
+          return attr;
+        }
+      
+Performing C SOURCE FILE Test PTHREAD_CREATE_UNDETACHED succeeded with the following output:
+Change Dir: C:/Users/rtiragat/AndroidStudioProjects/Ufily/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\rtiragat\AppData\Local\Android\sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_f396b"
+[1/2] Building C object CMakeFiles/cmTC_f396b.dir/src.c.o
+[2/2] Linking C executable cmTC_f396b
+
+Source file was:
+
+        #include <pthread.h>
+        int main (void) {
+          int attr = PTHREAD_CREATE_UNDETACHED;
+          return attr;
+        }
+      
+Performing C SOURCE FILE Test HAVE_MATH_LIBRARY succeeded with the following output:
+Change Dir: C:/Users/rtiragat/AndroidStudioProjects/Ufily/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\rtiragat\AppData\Local\Android\sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_6032d"
+[1/2] Building C object CMakeFiles/cmTC_6032d.dir/src.c.o
+[2/2] Linking C executable cmTC_6032d
+
+Source file was:
+
+    #include <math.h>
+    int main(int argc, char** argv) {
+      return (int)pow(argc, 2.5);
+    }
+  
+Determining if files stdlib.h;stdarg.h;string.h;float.h exist passed with the following output:
+Change Dir: C:/Users/rtiragat/AndroidStudioProjects/Ufily/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\rtiragat\AppData\Local\Android\sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_65f6b"
+[1/2] Building C object CMakeFiles/cmTC_65f6b.dir/CheckIncludeFiles.c.o
+[2/2] Linking C executable cmTC_65f6b
+
+
+Determining if files dlfcn.h exist passed with the following output:
+Change Dir: C:/Users/rtiragat/AndroidStudioProjects/Ufily/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\rtiragat\AppData\Local\Android\sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_28930"
+[1/2] Building C object CMakeFiles/cmTC_28930.dir/CheckIncludeFiles.c.o
+[2/2] Linking C executable cmTC_28930
+
+
+Determining if files inttypes.h exist passed with the following output:
+Change Dir: C:/Users/rtiragat/AndroidStudioProjects/Ufily/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\rtiragat\AppData\Local\Android\sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_30fa3"
+[1/2] Building C object CMakeFiles/cmTC_30fa3.dir/CheckIncludeFiles.c.o
+[2/2] Linking C executable cmTC_30fa3
+
+
+Determining if files memory.h exist passed with the following output:
+Change Dir: C:/Users/rtiragat/AndroidStudioProjects/Ufily/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\rtiragat\AppData\Local\Android\sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_010b5"
+[1/2] Building C object CMakeFiles/cmTC_010b5.dir/CheckIncludeFiles.c.o
+[2/2] Linking C executable cmTC_010b5
+
+
+Determining if files stdint.h exist passed with the following output:
+Change Dir: C:/Users/rtiragat/AndroidStudioProjects/Ufily/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\rtiragat\AppData\Local\Android\sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_0d4a2"
+[1/2] Building C object CMakeFiles/cmTC_0d4a2.dir/CheckIncludeFiles.c.o
+[2/2] Linking C executable cmTC_0d4a2
+
+
+Determining if files stdlib.h exist passed with the following output:
+Change Dir: C:/Users/rtiragat/AndroidStudioProjects/Ufily/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\rtiragat\AppData\Local\Android\sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_998ee"
+[1/2] Building C object CMakeFiles/cmTC_998ee.dir/CheckIncludeFiles.c.o
+[2/2] Linking C executable cmTC_998ee
+
+
+Determining if files strings.h exist passed with the following output:
+Change Dir: C:/Users/rtiragat/AndroidStudioProjects/Ufily/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\rtiragat\AppData\Local\Android\sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_ed016"
+[1/2] Building C object CMakeFiles/cmTC_ed016.dir/CheckIncludeFiles.c.o
+[2/2] Linking C executable cmTC_ed016
+
+
+Determining if files string.h exist passed with the following output:
+Change Dir: C:/Users/rtiragat/AndroidStudioProjects/Ufily/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\rtiragat\AppData\Local\Android\sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_763ad"
+[1/2] Building C object CMakeFiles/cmTC_763ad.dir/CheckIncludeFiles.c.o
+[2/2] Linking C executable cmTC_763ad
+
+
+Determining if files sys/stat.h exist passed with the following output:
+Change Dir: C:/Users/rtiragat/AndroidStudioProjects/Ufily/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\rtiragat\AppData\Local\Android\sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_9c933"
+[1/2] Building C object CMakeFiles/cmTC_9c933.dir/CheckIncludeFiles.c.o
+[2/2] Linking C executable cmTC_9c933
+
+
+Determining if files sys/types.h exist passed with the following output:
+Change Dir: C:/Users/rtiragat/AndroidStudioProjects/Ufily/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\rtiragat\AppData\Local\Android\sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_77c70"
+[1/2] Building C object CMakeFiles/cmTC_77c70.dir/CheckIncludeFiles.c.o
+[2/2] Linking C executable cmTC_77c70
+
+
+Determining if files unistd.h exist passed with the following output:
+Change Dir: C:/Users/rtiragat/AndroidStudioProjects/Ufily/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\rtiragat\AppData\Local\Android\sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_adeb9"
+[1/2] Building C object CMakeFiles/cmTC_adeb9.dir/CheckIncludeFiles.c.o
+[2/2] Linking C executable cmTC_adeb9
+
+
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_SSE41 succeeded with the following output:
+Change Dir: C:/Users/rtiragat/AndroidStudioProjects/Ufily/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\rtiragat\AppData\Local\Android\sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_20d91"
+[1/2] Building C object CMakeFiles/cmTC_20d91.dir/src.c.o
+[2/2] Linking C executable cmTC_20d91
+
+Source file was:
+
+      #include "C:/Users/rtiragat/AndroidStudioProjects/Ufily/app/libwebp-1.0.2/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_SSE41)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_SSE2 succeeded with the following output:
+Change Dir: C:/Users/rtiragat/AndroidStudioProjects/Ufily/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\rtiragat\AppData\Local\Android\sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_050eb"
+[1/2] Building C object CMakeFiles/cmTC_050eb.dir/src.c.o
+[2/2] Linking C executable cmTC_050eb
+
+Source file was:
+
+      #include "C:/Users/rtiragat/AndroidStudioProjects/Ufily/app/libwebp-1.0.2/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_SSE2)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test HAS_COMPILE_FLAG succeeded with the following output:
+Change Dir: C:/Users/rtiragat/AndroidStudioProjects/Ufily/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\rtiragat\AppData\Local\Android\sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_2a0d9"
+[1/2] Building C object CMakeFiles/cmTC_2a0d9.dir/src.c.o
+clang.exe: warning: argument unused during compilation: '-mdspr2' [-Wunused-command-line-argument]
+clang.exe: warning: argument unused during compilation: '-mno-dspr2' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_2a0d9
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAS_COMPILE_FLAG succeeded with the following output:
+Change Dir: C:/Users/rtiragat/AndroidStudioProjects/Ufily/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\rtiragat\AppData\Local\Android\sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_53362"
+[1/2] Building C object CMakeFiles/cmTC_53362.dir/src.c.o
+clang.exe: warning: argument unused during compilation: '-mmsa' [-Wunused-command-line-argument]
+clang.exe: warning: argument unused during compilation: '-mno-msa' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_53362
+
+Source file was:
+int main(void) { return 0; }

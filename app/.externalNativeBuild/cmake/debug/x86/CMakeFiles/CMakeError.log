@@ -1,0 +1,360 @@
+Determining if files GLUT/glut.h exist failed with the following output:
+Change Dir: C:/Users/rtiragat/AndroidStudioProjects/Ufily/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\rtiragat\AppData\Local\Android\sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_0b432"
+[1/2] Building C object CMakeFiles/cmTC_0b432.dir/CheckIncludeFiles.c.o
+FAILED: CMakeFiles/cmTC_0b432.dir/CheckIncludeFiles.c.o 
+C:\Users\rtiragat\AppData\Local\Android\sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android19 --gcc-toolchain=C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/sysroot   -isystem C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -pthread  -fPIE -o CMakeFiles/cmTC_0b432.dir/CheckIncludeFiles.c.o   -c CheckIncludeFiles.c
+CheckIncludeFiles.c:2:10: fatal error: 'GLUT/glut.h' file not found
+#include <GLUT/glut.h>
+         ^~~~~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+Source:
+/* */
+#include <GLUT/glut.h>
+
+
+int main(void){return 0;}
+
+Determining if files GL/glut.h exist failed with the following output:
+Change Dir: C:/Users/rtiragat/AndroidStudioProjects/Ufily/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\rtiragat\AppData\Local\Android\sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_78977"
+[1/2] Building C object CMakeFiles/cmTC_78977.dir/CheckIncludeFiles.c.o
+FAILED: CMakeFiles/cmTC_78977.dir/CheckIncludeFiles.c.o 
+C:\Users\rtiragat\AppData\Local\Android\sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android19 --gcc-toolchain=C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/sysroot   -isystem C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -pthread  -fPIE -o CMakeFiles/cmTC_78977.dir/CheckIncludeFiles.c.o   -c CheckIncludeFiles.c
+CheckIncludeFiles.c:2:10: fatal error: 'GL/glut.h' file not found
+#include <GL/glut.h>
+         ^~~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+Source:
+/* */
+#include <GL/glut.h>
+
+
+int main(void){return 0;}
+
+Determining if files OpenGL/glut.h exist failed with the following output:
+Change Dir: C:/Users/rtiragat/AndroidStudioProjects/Ufily/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\rtiragat\AppData\Local\Android\sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_28c39"
+[1/2] Building C object CMakeFiles/cmTC_28c39.dir/CheckIncludeFiles.c.o
+FAILED: CMakeFiles/cmTC_28c39.dir/CheckIncludeFiles.c.o 
+C:\Users\rtiragat\AppData\Local\Android\sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android19 --gcc-toolchain=C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/sysroot   -isystem C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -pthread  -fPIE -o CMakeFiles/cmTC_28c39.dir/CheckIncludeFiles.c.o   -c CheckIncludeFiles.c
+CheckIncludeFiles.c:2:10: fatal error: 'OpenGL/glut.h' file not found
+#include <OpenGL/glut.h>
+         ^~~~~~~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+Source:
+/* */
+#include <OpenGL/glut.h>
+
+
+int main(void){return 0;}
+
+Determining if files shlwapi.h exist failed with the following output:
+Change Dir: C:/Users/rtiragat/AndroidStudioProjects/Ufily/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\rtiragat\AppData\Local\Android\sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_b0738"
+[1/2] Building C object CMakeFiles/cmTC_b0738.dir/CheckIncludeFiles.c.o
+FAILED: CMakeFiles/cmTC_b0738.dir/CheckIncludeFiles.c.o 
+C:\Users\rtiragat\AppData\Local\Android\sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android19 --gcc-toolchain=C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/sysroot   -isystem C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -pthread  -fPIE -o CMakeFiles/cmTC_b0738.dir/CheckIncludeFiles.c.o   -c CheckIncludeFiles.c
+CheckIncludeFiles.c:2:10: fatal error: 'shlwapi.h' file not found
+#include <shlwapi.h>
+         ^~~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+Source:
+/* */
+#include <shlwapi.h>
+
+
+int main(void){return 0;}
+
+Determining if files wincodec.h exist failed with the following output:
+Change Dir: C:/Users/rtiragat/AndroidStudioProjects/Ufily/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\rtiragat\AppData\Local\Android\sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_37113"
+[1/2] Building C object CMakeFiles/cmTC_37113.dir/CheckIncludeFiles.c.o
+FAILED: CMakeFiles/cmTC_37113.dir/CheckIncludeFiles.c.o 
+C:\Users\rtiragat\AppData\Local\Android\sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android19 --gcc-toolchain=C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/sysroot   -isystem C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -pthread  -fPIE -o CMakeFiles/cmTC_37113.dir/CheckIncludeFiles.c.o   -c CheckIncludeFiles.c
+CheckIncludeFiles.c:2:10: fatal error: 'wincodec.h' file not found
+#include <wincodec.h>
+         ^~~~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+Source:
+/* */
+#include <wincodec.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h exist failed with the following output:
+Change Dir: C:/Users/rtiragat/AndroidStudioProjects/Ufily/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\rtiragat\AppData\Local\Android\sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_03b04"
+[1/2] Building C object CMakeFiles/cmTC_03b04.dir/CheckIncludeFiles.c.o
+FAILED: CMakeFiles/cmTC_03b04.dir/CheckIncludeFiles.c.o 
+C:\Users\rtiragat\AppData\Local\Android\sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android19 --gcc-toolchain=C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/sysroot   -isystem C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -pthread  -fPIE -o CMakeFiles/cmTC_03b04.dir/CheckIncludeFiles.c.o   -c CheckIncludeFiles.c
+CheckIncludeFiles.c:2:10: fatal error: 'windows.h' file not found
+#include <windows.h>
+         ^~~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+Source:
+/* */
+#include <windows.h>
+
+
+int main(void){return 0;}
+
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_SSE41 failed with the following output:
+Change Dir: C:/Users/rtiragat/AndroidStudioProjects/Ufily/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\rtiragat\AppData\Local\Android\sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_ffa7c"
+[1/2] Building C object CMakeFiles/cmTC_ffa7c.dir/src.c.o
+FAILED: CMakeFiles/cmTC_ffa7c.dir/src.c.o 
+C:\Users\rtiragat\AppData\Local\Android\sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android19 --gcc-toolchain=C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/sysroot  -IC:/Users/rtiragat/AndroidStudioProjects/Ufily/app/libwebp-1.0.2 -isystem C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -pthread -DWEBP_HAVE_FLAG_SSE41 -fPIE -o CMakeFiles/cmTC_ffa7c.dir/src.c.o   -c src.c
+src.c:5:9: error: use of undeclared identifier 'this'
+        this is not valid code
+        ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+Source file was:
+
+      #include "C:/Users/rtiragat/AndroidStudioProjects/Ufily/app/libwebp-1.0.2/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_SSE41)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_MIPS32 failed with the following output:
+Change Dir: C:/Users/rtiragat/AndroidStudioProjects/Ufily/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\rtiragat\AppData\Local\Android\sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_d1cf5"
+[1/2] Building C object CMakeFiles/cmTC_d1cf5.dir/src.c.o
+FAILED: CMakeFiles/cmTC_d1cf5.dir/src.c.o 
+C:\Users\rtiragat\AppData\Local\Android\sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android19 --gcc-toolchain=C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/sysroot  -IC:/Users/rtiragat/AndroidStudioProjects/Ufily/app/libwebp-1.0.2 -isystem C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -pthread -DWEBP_HAVE_FLAG_MIPS32 -fPIE -o CMakeFiles/cmTC_d1cf5.dir/src.c.o   -c src.c
+src.c:5:9: error: use of undeclared identifier 'this'
+        this is not valid code
+        ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+Source file was:
+
+      #include "C:/Users/rtiragat/AndroidStudioProjects/Ufily/app/libwebp-1.0.2/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_MIPS32)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_MIPS32 failed with the following output:
+Change Dir: C:/Users/rtiragat/AndroidStudioProjects/Ufily/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\rtiragat\AppData\Local\Android\sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_301bb"
+[1/2] Building C object CMakeFiles/cmTC_301bb.dir/src.c.o
+FAILED: CMakeFiles/cmTC_301bb.dir/src.c.o 
+C:\Users\rtiragat\AppData\Local\Android\sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android19 --gcc-toolchain=C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/sysroot  -IC:/Users/rtiragat/AndroidStudioProjects/Ufily/app/libwebp-1.0.2 -isystem C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -pthread -DWEBP_HAVE_FLAG_MIPS32 -mips32 -fPIE -o CMakeFiles/cmTC_301bb.dir/src.c.o   -c src.c
+error: unknown target CPU 'mips32'
+note: valid target CPU values are: i386, i486, winchip-c6, winchip2, c3, i586, pentium, pentium-mmx, pentiumpro, i686, pentium2, pentium3, pentium3m, pentium-m, c3-2, yonah, pentium4, pentium4m, prescott, nocona, core2, penryn, bonnell, atom, silvermont, slm, goldmont, nehalem, corei7, westmere, sandybridge, corei7-avx, ivybridge, core-avx-i, haswell, core-avx2, broadwell, skylake, skylake-avx512, skx, cannonlake, icelake, knl, knm, lakemont, k6, k6-2, k6-3, athlon, athlon-tbird, athlon-xp, athlon-mp, athlon-4, k8, athlon64, athlon-fx, opteron, k8-sse3, athlon64-sse3, opteron-sse3, amdfam10, barcelona, btver1, btver2, bdver1, bdver2, bdver3, bdver4, znver1, x86-64, geode
+ninja: build stopped: subcommand failed.
+
+Source file was:
+
+      #include "C:/Users/rtiragat/AndroidStudioProjects/Ufily/app/libwebp-1.0.2/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_MIPS32)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_MIPS_DSP_R2 failed with the following output:
+Change Dir: C:/Users/rtiragat/AndroidStudioProjects/Ufily/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\rtiragat\AppData\Local\Android\sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_e535b"
+[1/2] Building C object CMakeFiles/cmTC_e535b.dir/src.c.o
+FAILED: CMakeFiles/cmTC_e535b.dir/src.c.o 
+C:\Users\rtiragat\AppData\Local\Android\sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android19 --gcc-toolchain=C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/sysroot  -IC:/Users/rtiragat/AndroidStudioProjects/Ufily/app/libwebp-1.0.2 -isystem C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -pthread -DWEBP_HAVE_FLAG_MIPS_DSP_R2 -fPIE -o CMakeFiles/cmTC_e535b.dir/src.c.o   -c src.c
+src.c:5:9: error: use of undeclared identifier 'this'
+        this is not valid code
+        ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+Source file was:
+
+      #include "C:/Users/rtiragat/AndroidStudioProjects/Ufily/app/libwebp-1.0.2/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_MIPS_DSP_R2)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_MIPS_DSP_R2 failed with the following output:
+Change Dir: C:/Users/rtiragat/AndroidStudioProjects/Ufily/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\rtiragat\AppData\Local\Android\sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_0a3c8"
+[1/2] Building C object CMakeFiles/cmTC_0a3c8.dir/src.c.o
+FAILED: CMakeFiles/cmTC_0a3c8.dir/src.c.o 
+C:\Users\rtiragat\AppData\Local\Android\sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android19 --gcc-toolchain=C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/sysroot  -IC:/Users/rtiragat/AndroidStudioProjects/Ufily/app/libwebp-1.0.2 -isystem C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -pthread -DWEBP_HAVE_FLAG_MIPS_DSP_R2 -mdspr2 -fPIE -o CMakeFiles/cmTC_0a3c8.dir/src.c.o   -c src.c
+clang.exe: warning: argument unused during compilation: '-mdspr2' [-Wunused-command-line-argument]
+src.c:5:9: error: use of undeclared identifier 'this'
+        this is not valid code
+        ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+Source file was:
+
+      #include "C:/Users/rtiragat/AndroidStudioProjects/Ufily/app/libwebp-1.0.2/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_MIPS_DSP_R2)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test FLAG_-mno-dspr2 failed with the following output:
+Change Dir: C:/Users/rtiragat/AndroidStudioProjects/Ufily/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\rtiragat\AppData\Local\Android\sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_12fd7"
+[1/2] Building C object CMakeFiles/cmTC_12fd7.dir/src.c.o
+clang.exe: warning: argument unused during compilation: '-mdspr2' [-Wunused-command-line-argument]
+clang.exe: warning: argument unused during compilation: '-mno-dspr2' [-Wunused-command-line-argument]
+In file included from <built-in>:359:
+<command line>:2:14: warning: ISO C99 requires whitespace after the macro name [-Wc99-extensions]
+#define FLAG_-mno-dspr2 1
+             ^
+1 warning generated.
+[2/2] Linking C executable cmTC_12fd7
+
+Source file was:
+int main(void) {return 0;}
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_NEON failed with the following output:
+Change Dir: C:/Users/rtiragat/AndroidStudioProjects/Ufily/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\rtiragat\AppData\Local\Android\sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_ea465"
+[1/2] Building C object CMakeFiles/cmTC_ea465.dir/src.c.o
+FAILED: CMakeFiles/cmTC_ea465.dir/src.c.o 
+C:\Users\rtiragat\AppData\Local\Android\sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android19 --gcc-toolchain=C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/sysroot  -IC:/Users/rtiragat/AndroidStudioProjects/Ufily/app/libwebp-1.0.2 -isystem C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -pthread -DWEBP_HAVE_FLAG_NEON -fPIE -o CMakeFiles/cmTC_ea465.dir/src.c.o   -c src.c
+src.c:5:9: error: use of undeclared identifier 'this'
+        this is not valid code
+        ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+Source file was:
+
+      #include "C:/Users/rtiragat/AndroidStudioProjects/Ufily/app/libwebp-1.0.2/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_NEON)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_NEON failed with the following output:
+Change Dir: C:/Users/rtiragat/AndroidStudioProjects/Ufily/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\rtiragat\AppData\Local\Android\sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_b8780"
+[1/2] Building C object CMakeFiles/cmTC_b8780.dir/src.c.o
+FAILED: CMakeFiles/cmTC_b8780.dir/src.c.o 
+C:\Users\rtiragat\AppData\Local\Android\sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android19 --gcc-toolchain=C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/sysroot  -IC:/Users/rtiragat/AndroidStudioProjects/Ufily/app/libwebp-1.0.2 -isystem C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -pthread -DWEBP_HAVE_FLAG_NEON -mfpu=neon -fPIE -o CMakeFiles/cmTC_b8780.dir/src.c.o   -c src.c
+clang.exe: warning: argument unused during compilation: '-mfpu=neon' [-Wunused-command-line-argument]
+src.c:5:9: error: use of undeclared identifier 'this'
+        this is not valid code
+        ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+Source file was:
+
+      #include "C:/Users/rtiragat/AndroidStudioProjects/Ufily/app/libwebp-1.0.2/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_NEON)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_MSA failed with the following output:
+Change Dir: C:/Users/rtiragat/AndroidStudioProjects/Ufily/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\rtiragat\AppData\Local\Android\sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_87947"
+[1/2] Building C object CMakeFiles/cmTC_87947.dir/src.c.o
+FAILED: CMakeFiles/cmTC_87947.dir/src.c.o 
+C:\Users\rtiragat\AppData\Local\Android\sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android19 --gcc-toolchain=C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/sysroot  -IC:/Users/rtiragat/AndroidStudioProjects/Ufily/app/libwebp-1.0.2 -isystem C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -pthread -DWEBP_HAVE_FLAG_MSA -fPIE -o CMakeFiles/cmTC_87947.dir/src.c.o   -c src.c
+src.c:5:9: error: use of undeclared identifier 'this'
+        this is not valid code
+        ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+Source file was:
+
+      #include "C:/Users/rtiragat/AndroidStudioProjects/Ufily/app/libwebp-1.0.2/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_MSA)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_MSA failed with the following output:
+Change Dir: C:/Users/rtiragat/AndroidStudioProjects/Ufily/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\rtiragat\AppData\Local\Android\sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_7dbd5"
+[1/2] Building C object CMakeFiles/cmTC_7dbd5.dir/src.c.o
+FAILED: CMakeFiles/cmTC_7dbd5.dir/src.c.o 
+C:\Users\rtiragat\AppData\Local\Android\sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android19 --gcc-toolchain=C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/sysroot  -IC:/Users/rtiragat/AndroidStudioProjects/Ufily/app/libwebp-1.0.2 -isystem C:/Users/rtiragat/AppData/Local/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -pthread -DWEBP_HAVE_FLAG_MSA -mmsa -fPIE -o CMakeFiles/cmTC_7dbd5.dir/src.c.o   -c src.c
+clang.exe: warning: argument unused during compilation: '-mmsa' [-Wunused-command-line-argument]
+src.c:5:9: error: use of undeclared identifier 'this'
+        this is not valid code
+        ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+Source file was:
+
+      #include "C:/Users/rtiragat/AndroidStudioProjects/Ufily/app/libwebp-1.0.2/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_MSA)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test FLAG_-mno-msa failed with the following output:
+Change Dir: C:/Users/rtiragat/AndroidStudioProjects/Ufily/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\rtiragat\AppData\Local\Android\sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_ee9e9"
+[1/2] Building C object CMakeFiles/cmTC_ee9e9.dir/src.c.o
+clang.exe: warning: argument unused during compilation: '-mmsa' [-Wunused-command-line-argument]
+clang.exe: warning: argument unused during compilation: '-mno-msa' [-Wunused-command-line-argument]
+In file included from <built-in>:359:
+<command line>:2:14: warning: ISO C99 requires whitespace after the macro name [-Wc99-extensions]
+#define FLAG_-mno-msa 1
+             ^
+1 warning generated.
+[2/2] Linking C executable cmTC_ee9e9
+
+Source file was:
+int main(void) {return 0;}

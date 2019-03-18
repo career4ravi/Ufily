@@ -1,0 +1,331 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:layout_weight="3"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        >
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radio_love_eyes"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/abc_action_button_min_height_material"
+                android:layout_gravity="start"
+                android:layout_weight="1"
+                android:background="@drawable/loveeyes_selector"
+                android:button="@drawable/abc_btn_borderless_material"
+                android:checked="false"
+                android:duplicateParentState="false"
+                android:paddingBottom="4dp"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:paddingTop="4dp" />
+
+            <RadioButton
+                android:id="@+id/radio_devil_look"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/abc_action_button_min_height_material"
+                android:layout_weight="1"
+                android:background="@drawable/devillook_selector"
+                android:button="@drawable/abc_btn_borderless_material"
+                android:paddingBottom="4dp"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:paddingTop="4dp" />
+
+
+            <RadioButton
+                android:id="@+id/radio_thug_life"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/abc_action_button_min_height_material"
+                android:layout_weight="1"
+                android:background="@drawable/thuglife_selector"
+                android:button="@drawable/abc_btn_borderless_material"
+                android:paddingBottom="4dp"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:paddingTop="4dp" />
+
+            <RadioButton
+                android:id="@+id/radio_blow_kiss"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/abc_action_button_min_height_material"
+                android:layout_weight="1"
+                android:background="@drawable/blowkiss_selector"
+                android:button="@drawable/abc_btn_borderless_material"
+                android:paddingBottom="4dp"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:paddingTop="4dp"
+
+                />
+
+            <RadioButton
+                android:id="@+id/radio_kiss"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/abc_action_button_min_height_material"
+                android:layout_weight="1"
+                android:background="@drawable/kiss_selector"
+                android:button="@drawable/abc_btn_borderless_material"
+                android:paddingBottom="4dp"
+
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:paddingTop="4dp" />
+        </RadioGroup>
+
+    </LinearLayout>
+        <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        >
+
+             <freeze.in.co.ufily.common.FaceDetectView
+                 android:id="@+id/faceDetectView"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:visibility="visible" />
+        <!--ImageView
+       android:id="@+id/faceDetectView"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_gravity="center"
+       android:src="@drawable/faces"
+       /-->
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:id="@+id/linearLayoutMinor2">
+
+                <TextView
+                    android:id="@+id/gallerytextView"
+                    android:layout_width="48dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="13dp"
+                    android:gravity="center"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
+                    android:textColor="#FF000000"
+                    android:text="Gallery" />
+
+                <ImageButton
+                    android:layout_width="@dimen/abc_action_button_min_height_material"
+                    android:layout_height="@dimen/abc_action_button_min_height_material"
+                    android:id="@+id/GalleryButton"
+                    android:background="@drawable/gallery"
+                    android:layout_above="@id/gallerytextView"
+                    android:layout_alignParentLeft="true"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    />
+
+
+
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="48dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="13sp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:gravity="center"
+                    android:textColor="#FF000000"
+                    android:text="Camera" />
+
+                <ImageButton
+                    android:layout_width="@dimen/abc_action_button_min_width_material"
+                    android:layout_height="@dimen/abc_action_button_min_height_material"
+                    android:id="@+id/CameraButton"
+                    android:background="@drawable/camera"
+                    android:layout_above="@id/textView"
+                    android:layout_alignParentRight="true"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp" />
+
+
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#40000000"
+                    android:id="@+id/framelLayoutSemiTransparentTextHint"
+                    android:visibility="invisible"
+                    >
+                <!--to do add text view here to tell user to selct the button for creating ufily-->
+
+                </FrameLayout>
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+</LinearLayout>
+
+
+    <FrameLayout
+            android:id="@+id/framelLayoutSemiTransparent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#40000000"
+            android:visibility="invisible">
+            <!--LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:id="@+id/linearLayoutMajor"-->
+
+        <!--LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:id="@+id/linearLayoutMinor1"
+                android:elevation="1dp">
+
+            </LinearLayout-->
+
+        <!--LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/linearLayout1"-->
+
+        <!--LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:id="@+id/linearsubLayout1"-->
+
+        <!--ImageView
+                android:id="@+id/heartImageView"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_weight="2"
+                android:layout_gravity="center"
+                android:src="@drawable/rofl"
+                android:visibility="invisible"
+                /-->
+
+        <LinearLayout
+            android:id="@+id/gifLinearLayout"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+                <com.felipecsl.gifimageview.library.GifImageView
+                    android:id="@+id/gifImageView"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    android:visibility="invisible"
+
+                    />
+
+            <LinearLayout
+                android:id="@+id/shareLayout"
+                android:layout_width="200dp"
+                android:layout_height="@dimen/abc_action_button_min_height_material"
+                android:layout_gravity="bottom"
+                android:background="#FFFFFFFF"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/shareButton"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/share_green"
+                    android:paddingBottom="4dp"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
+                    android:paddingTop="4dp"
+                    android:visibility="invisible" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!--LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="8"
+                    android:id="@+id/linearsubLayout3">
+                <ImageButton
+                    android:layout_width="@dimen/abc_action_button_min_width_material"
+                    android:layout_height="@dimen/abc_action_button_min_height_material"
+                    android:id="@+id/shareButton"
+                    android:layout_gravity="center"
+                    android:background="@drawable/share"
+                    android:visibility="invisible"
+                    android:layout_weight="5"
+                    />
+
+                    </LinearLayout-->
+
+
+        <!--/LinearLayout-->
+
+            <!--/-LinearLayout-->
+
+
+        <!--LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:id="@+id/linearLayoutMinor3"
+                android:layout_gravity="right">
+
+            </LinearLayout-->
+
+            <!--/LinearLayout-->
+        </FrameLayout>
+
+</FrameLayout>
