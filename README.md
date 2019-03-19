@@ -11,12 +11,10 @@ Also if anything wrong with code please let me know.career4ravi@gmail.com
 
 
 **Select a picture from Gallery or camera and select the smiley and face**
-
 ![alt text](https://github.com/career4ravi/Ufily/blob/master/Screenshot_2019-03-19-22-23-51-519_freeze.in.co.ufily.png)
 
 
 **GIf image and stickers get created in the next tab**
-
 ![alt text](https://github.com/career4ravi/Ufily/blob/master/Screenshot_2019-03-19-22-25-55-987_freeze.in.co.ufily.png)
 
 
