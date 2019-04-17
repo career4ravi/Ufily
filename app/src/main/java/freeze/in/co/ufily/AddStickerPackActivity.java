@@ -171,8 +171,10 @@ public  class AddStickerPackActivity extends BaseActivity {
             else if(resultCode == Activity.RESULT_OK)
             {
                 Log.d(UfilyConstants.APP,"AddStickerPackActivity():"+"Completed Adding sticker pack activity");
-                finish();
+
             }
+            //
+            finish();
         }
     }
 

@@ -12,7 +12,7 @@ public class UfilyPagerAdapter extends FragmentPagerAdapter {
 
     private static final CharSequence Titles[] = {"Funny Face Maker","Funny Faces","Famous Ufily"};
 
-    public UfilyPagerAdapter(FragmentManager fm) {
+    UfilyPagerAdapter(FragmentManager fm) {
         super(fm);
     }
 
@@ -36,8 +36,6 @@ public class UfilyPagerAdapter extends FragmentPagerAdapter {
 
         return fm;
     }
-
-
     @Override
     public int getCount() {
         return 2;

@@ -71,9 +71,6 @@ public class FileHelper {
         }
 
     }
-
-
-
     //determine the resolution of the phone and decide the image size.
     public void writeImage(Bitmap image)
     {

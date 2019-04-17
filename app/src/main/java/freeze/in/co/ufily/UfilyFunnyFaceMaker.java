@@ -450,8 +450,12 @@ public class UfilyFunnyFaceMaker extends Fragment implements View.OnTouchListene
             Bitmap input = (Bitmap)object[0];
             Face face = (Face)object[1];
 
-            Bitmap output = makeRectangleBitmap(input,face);
-            Bitmap output1= makeCircularBitmap(output,face);
+            Bitmap output = makeSquareBitmap(input,face);
+
+
+            //sticker pack
+            Bitmap rectOutput = makeRectangleBitmap(input,face);
+            Bitmap output1= makeCircularBitmap(rectOutput,face);
             Bitmap output2= addBorderToBitmap(output1,4,Color.TRANSPARENT);
             Bitmap output3= addBorderToBitmap(output2,4,Color.TRANSPARENT);
 
@@ -467,7 +471,6 @@ public class UfilyFunnyFaceMaker extends Fragment implements View.OnTouchListene
             ByteArrayOutputStream stream = new ByteArrayOutputStream();
             output3.compress(Bitmap.CompressFormat.WEBP, 100, stream);
             byte[] byteArray = stream.toByteArray();
-
 
             sizeofWebp = byteSizeOf(output3);
             Log.d(UfilyConstants.APP,"GifGenerateTask::doInBackground()"+"After:sizeofWebp:"+sizeofWebp/1024+"KB");
@@ -656,9 +659,6 @@ public class UfilyFunnyFaceMaker extends Fragment implements View.OnTouchListene
         }
 
 
-
-
-
         private Bitmap makeRectangleBitmap(Bitmap input,Face face)
         {
             int sideLength =(int)(Math.max(face.getHeight(),face.getWidth()));
@@ -687,6 +687,39 @@ public class UfilyFunnyFaceMaker extends Fragment implements View.OnTouchListene
 
             return output;
         }
+
+        private Bitmap makeSquareBitmap(Bitmap input,Face face)
+        {
+            int sideLength =(int)(Math.max(face.getHeight(),face.getWidth()));
+            Log.d(UfilyConstants.APP,"face side length:"+sideLength);
+
+            int startX = (int)face.getPosition().x;
+            int startY = (int)face.getPosition().y;
+
+            int endX = (int)(sideLength + startX);
+            int endY = (int)(sideLength + startY);
+
+            Log.d(UfilyConstants.APP,"face startX:"+startX +"startY:"+startY);
+
+            Bitmap output = Bitmap.createBitmap((int)sideLength,(int)sideLength,Bitmap.Config.ARGB_8888);
+
+            final Rect srcRect = new Rect(startX,startY, endX, endY);
+            final Rect destRect = new Rect(0,0, (int)sideLength,(int)sideLength);
+            Canvas canvas = new Canvas(output);
+
+            final Paint paint = new Paint();
+            paint.setAntiAlias(true);
+            paint.setFilterBitmap(true);
+            canvas.drawColor(Color.TRANSPARENT);
+            canvas.drawBitmap(input, srcRect, destRect, paint);
+
+            Bitmap output1 = null;
+            //upscaling or downscaling
+            output1 = Bitmap.createScaledBitmap(output,256,256,true);
+
+            return output1;
+        }
+
         private void addImagesToDb(Uri gifUri,Uri imageUri) {
 
 

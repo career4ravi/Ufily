@@ -29,7 +29,6 @@ public class FaceDetector1 {
         mActivity = activity;
     }
 
-
     public SparseArray<Face> createFaceMap(Bitmap bitmap)
     {
 
